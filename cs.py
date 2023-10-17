@@ -19,7 +19,7 @@ def SaveAvatar(skin,name):
 
 #name = "name"                     #玩家名字
 #FetchSkin(name)                   #玩家皮肤链接
-#SaveAvatar(FetchSkin(name),name)  #对皮肤裁切出同学并保存
+#SaveAvatar(FetchSkin(name),name)  #对皮肤裁切出同像并保存
 
 with open('name.json', 'r') as f:
     name_list = json.load(f)
